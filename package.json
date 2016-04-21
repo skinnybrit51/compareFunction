@@ -2,9 +2,11 @@
   "name": "comparefunction",
   "version": "1.0.0",
   "description": "Compare two values or objects to determine order.",
-  "main": "index.js",
+  "main": "comparator.js",
   "scripts": {
-    "test": "npm test"
+    "lint": "jshint *.js",
+    "test": "mocha *Spec.js -R spec",
+    "posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/skinnybrit51/compareFunction/issues"
   },
-  "homepage": "https://github.com/skinnybrit51/compareFunction#readme"
+  "homepage": "https://github.com/skinnybrit51/compareFunction#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jsdom": "^8.4.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5"
+  }
 }
