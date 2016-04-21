@@ -1,0 +1,24 @@
+{
+  "name": "comparefunction",
+  "version": "1.0.0",
+  "description": "Compare two values or objects to determine order.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skinnybrit51/compareFunction.git"
+  },
+  "keywords": [
+    "Compare",
+    "Comparator",
+    "compareFunction"
+  ],
+  "author": "skinnybrit51",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skinnybrit51/compareFunction/issues"
+  },
+  "homepage": "https://github.com/skinnybrit51/compareFunction#readme"
+}
