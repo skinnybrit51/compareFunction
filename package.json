@@ -1,6 +1,6 @@
 {
   "name": "comparefunction",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compare two values or objects to determine order.",
   "main": "comparator.js",
   "scripts": {
