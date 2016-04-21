@@ -34,4 +34,13 @@ describe('Comparator', function () {
         expect(comparator.float(1.1, 1.1) === 0).to.be.true;
         expect(comparator.float(1.1, 1.2, false) > 0).to.be.true;
     });
+
+    it('Should be able to pass the comparator into an array sort', function () {
+        var dateArray = ['2012-01-01', '2011-01-01', '2013-01-01', '2009-01-01'];
+        dateArray.sort(comparator.date);
+        expect(dateArray[0]).to.be.equal('2009-01-01');
+        expect(dateArray[1]).to.be.equal('2011-01-01');
+        expect(dateArray[2]).to.be.equal('2012-01-01');
+        expect(dateArray[3]).to.be.equal('2013-01-01');
+    });
 });

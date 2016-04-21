@@ -1,7 +1,7 @@
 {
   "name": "comparefunction",
-  "version": "1.0.2",
-  "description": "Compare two values or objects to determine order.",
+  "version": "1.0.3",
+  "description": "Comparator helper to compare two values of a specific variable type.",
   "main": "comparator.js",
   "scripts": {
     "lint": "jshint *.js",
